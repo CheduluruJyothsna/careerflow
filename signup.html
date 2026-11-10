@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CareerFlow - Sign Up</title>
+    <link rel="stylesheet" href="auth.css">
+</head>
+<body>
+
+    <div class="login-container">
+        <h1>CareerFlow</h1>
+        <h2>Create Account</h2>
+        <p>Start your career journey with us.</p>
+
+        <form id="signupForm">
+            <input type="email" id="signupEmail"
+                placeholder="Enter Email" required>
+
+            <input type="password" id="signupPassword"
+                placeholder="Create Password (minimum 6 characters)"
+                minlength="6" required>
+
+            <button type="submit">Sign Up</button>
+        </form>
+
+        <p id="signupMessage"></p>
+
+        <p>Already have an account?
+            <a href="login.html">Login</a>
+        </p>
+    </div>
+
+    <script type="module" src="auth.js"></script>
+</body>
+</html>
